@@ -1,3 +1,6 @@
+.link-item{
+  text-decoration: none;
+}
 .product-item {
     display: flex;
     flex-direction: column;
@@ -6,7 +9,7 @@
     flex-grow: 0;
     flex-shrink: 1;
     margin-right: 20px;
-  }
+   }
   
   @media screen and (min-width: 768px) and (max-width: 991px) {
     .product-item {

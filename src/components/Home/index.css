@@ -98,6 +98,7 @@
     border-radius: 6px;
     background-color: #0967d2;
     margin-top: 20px;
+    cursor: pointer;
   }
   
   @media screen and (min-width: 768px) {
