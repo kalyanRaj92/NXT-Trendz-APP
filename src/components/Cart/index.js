@@ -18,7 +18,7 @@ const Cart = () => (
 
       return (
         <>
-          <Header />
+          <Header activeTab="CART" />
           <div className="cart-container">
             {showEmptyView ? (
               <EmptyCartView />

@@ -7,7 +7,7 @@ import './index.css'
 
 const Products = () => (
   <>
-    <Header />
+    <Header activeTab="PRODUCTS"/>
     <div className="product-sections">
       <PrimeDealsSection/>
       <AllProductsSection />

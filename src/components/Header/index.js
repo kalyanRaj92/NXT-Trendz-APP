@@ -12,6 +12,11 @@ const Header = props => {
     history.replace('/login')
   }
 
+  const {activeTab} = props
+  const activeHome = activeTab === 'HOME' ? 'active' : ''
+  const activeProducts = activeTab === 'PRODUCTS' ? 'active' : ''
+  const activeCart = activeTab === 'CART' ? 'active' : ''
+
   const renderCartItemsCount = () => (
     <CartContext.Consumer>
       {value => {
@@ -64,19 +69,19 @@ const Header = props => {
           </Link>
           <ul className="nav-menu">
             <li className="nav-menu-item">
-              <Link to="/" className="nav-link">
+              <Link to="/" className={`nav-link ${activeHome}`}>
                 Home
               </Link>
             </li>
 
             <li className="nav-menu-item">
-              <Link to="/products" className="nav-link">
+              <Link to="/products" className={`nav-link ${activeProducts}`}>
                 Products
               </Link>
             </li>
 
             <li className="nav-menu-item">
-              <Link to="/cart" className="nav-link">
+              <Link to="/cart" className={`nav-link ${activeCart}`}>
                 Cart
                 {renderCartItemsCount()}
               </Link>

@@ -120,8 +120,13 @@
   font-size:18px;
   font-weight: 400;
 }
+
 .nav-link:hover{
   font-weight: bold;
+}
+
+.active {
+  color: #0967d2;
 }
 
 .nav-menu-item-mobile {

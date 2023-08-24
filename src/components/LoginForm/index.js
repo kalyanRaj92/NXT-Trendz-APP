@@ -64,6 +64,7 @@ class LoginForm extends Component {
           className="password-input-filed"
           value={password}
           onChange={this.onChangePassword}
+          placeholder='rahul@2021'
         />
       </>
     )
@@ -82,12 +83,14 @@ class LoginForm extends Component {
           className="username-input-filed"
           value={username}
           onChange={this.onChangeUsername}
+          placeholder='rahul'
         />
       </>
     )
   }
 
   render() {
+    document.title = "NxtTrendz-App"
     const jwtToken = Cookies.get('jwt_token')
     if (jwtToken !== undefined) {
        return <Redirect to="/" />

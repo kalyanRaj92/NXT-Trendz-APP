@@ -9,6 +9,7 @@
     flex-grow: 0;
     flex-shrink: 1;
     margin-right: 20px;
+    /* border: 1px solid burlywood; */
    }
   
   @media screen and (min-width: 768px) and (max-width: 991px) {
