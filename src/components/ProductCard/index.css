@@ -9,7 +9,7 @@
     flex-grow: 0;
     flex-shrink: 1;
     margin-right: 20px;
-    /* border: 1px solid burlywood; */
+    box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.548);
    }
   
   @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -21,7 +21,13 @@
   .thumbnail {
     width: 100%;
     max-height: 350px;
-    border-radius: 6px;
+    border-radius: 6px 6px 0px 0px;
+  }
+  
+  .card{
+    /* background-color: #6da9e4; */
+    background-image: linear-gradient(to right, #BCE6EB,#8ACBBB,#92B4EC);
+    padding: 0px 0px 0px 5px;
   }
   
   .title {

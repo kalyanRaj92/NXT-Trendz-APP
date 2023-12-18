@@ -96,7 +96,7 @@
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 6px;
-    background-color: #0967d2;
+    background-image: linear-gradient(to right,#0F3460,#0967d2);
     margin-top: 20px;
     cursor: pointer;
   }

@@ -59,6 +59,7 @@
     border-radius: 8px;
     width: 100%;
     max-width: 350px;
+    background-color: #8BCDCD;
   }
   
   @media screen and (min-width: 992px) {
@@ -120,11 +121,13 @@
     background-color: #0b69ff;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
   }
   
   .error-message {
     align-self: start;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 500;
     margin-top: 3px;
     margin-bottom: 0px;
     font-family: 'Roboto';

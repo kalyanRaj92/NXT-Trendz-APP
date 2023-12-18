@@ -28,8 +28,7 @@ const FiltersGroup = props => {
   }
   
   // SearchInput
-  const renderSearchInput = () => {
-    return (
+  const renderSearchInput = () => (
       <div className="search-input-container">
         <input
           value={searchInput}
@@ -42,7 +41,7 @@ const FiltersGroup = props => {
         <BsSearch className="search-icon" />
       </div>
     )
-  }
+  
 
  // Category 
   const renderProductCategories = () => (

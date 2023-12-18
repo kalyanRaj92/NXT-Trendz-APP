@@ -13,6 +13,7 @@ class LoginForm extends Component {
     errorMsg: '',
   }
 
+  
   onSubmitSuccess = jwtToken => {
     Cookies.set('jwt_token', jwtToken, {expires: 30, path: "/",})
     //const {history} = this.props
@@ -90,7 +91,6 @@ class LoginForm extends Component {
   }
 
   render() {
-    document.title = "NxtTrendz-App"
     const jwtToken = Cookies.get('jwt_token')
     if (jwtToken !== undefined) {
        return <Redirect to="/" />
